@@ -1,4 +1,4 @@
-let parola = 'ciaic';
+let parola = prompt(`Inserisci una parola per vedere se e' palindroma`);
 
 let f = parola.length - 1;
 let palindroma = false;
@@ -16,5 +16,5 @@ for (let i = 0; i < parola.length / 2; i++) {
 }
 
 palindroma == false
-    ? console.log(`parola palindroma: %c${palindroma}`, "color: red")
+    ? (console.log(`parola palindroma: %c${palindroma}`, "color: red"))
     : console.log(`parola palindroma: %c${palindroma}`, "color: green")
